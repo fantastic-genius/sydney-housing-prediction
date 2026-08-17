@@ -1,0 +1,42 @@
+{
+  "model": "Gradient Boosting",
+  "target": "log(price_sold), predictions exponentiated back to AUD",
+  "trained_on_rows": 927,
+  "sale_year_min": 2024,
+  "suburbs": [
+    "Bondi",
+    "Chatswood",
+    "Liverpool"
+  ],
+  "property_types": [
+    "Apartment",
+    "House",
+    "Other",
+    "Studio",
+    "Townhouse",
+    "Unit"
+  ],
+  "holdout_mape": 10.9,
+  "holdout_median_ape": 8.61,
+  "typical_error_note": "median absolute error of 9% on unseen listings",
+  "suburb_defaults": {
+    "Bondi": {
+      "latitude": -33.892746,
+      "longitude": 151.26259,
+      "dist_cbd_km": 5.598,
+      "dist_transport_km": 1.1019999999999999
+    },
+    "Chatswood": {
+      "latitude": -33.79653,
+      "longitude": 151.18062,
+      "dist_cbd_km": 8.4245,
+      "dist_transport_km": 0.664
+    },
+    "Liverpool": {
+      "latitude": -33.926221999999996,
+      "longitude": 150.92053,
+      "dist_cbd_km": 27.376,
+      "dist_transport_km": 0.8125
+    }
+  }
+}
