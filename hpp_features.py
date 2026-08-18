@@ -101,7 +101,6 @@ RAW_INPUT_COLUMNS: list[str] = [
 
 # --- Text cleaning ---------------------------------------------------------------
 
-
 def clean_description(text: object) -> str:
     """Lower-case agent copy with all currency amounts and bare numbers masked.
 
@@ -123,7 +122,6 @@ def _count_bullets(text: object) -> int:
 
 
 # --- Feature engineering ---------------------------------------------------------
-
 
 def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
     """Return a new frame with engineered columns added. The input is not mutated."""
