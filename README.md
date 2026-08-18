@@ -32,7 +32,15 @@ comparison against an LLM and human judgement, and a deployed Streamlit applicat
 ## Reproducing the results
 
 ```bash
-cd "task 8d"
+cd "sydney-housing-prediction"
+
+# create virtual environment
+python -m venv .venv
+
+# activate virtual environment
+source .venv/bin/activate
+
+# install packages
 pip install -r app/requirements.txt
 
 # Re-run the whole analysis; writes figures/, results.json and models/
