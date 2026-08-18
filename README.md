@@ -1,6 +1,4 @@
-# SIG720 Task 8D — Sydney Housing Price Prediction and Decision Support System
-
-Hamzah Atanda Abdulfattah — Student ID 226162668
+# Sydney Housing Price Prediction and Decision Support System
 
 A housing price prediction system for **Bondi**, **Chatswood** and **Liverpool**, covering the full ML
 lifecycle: data understanding, feature engineering, model selection, failure analysis, a three-way
